@@ -1,0 +1,18 @@
+codex-ai/
+├── .env
+├── requirements.txt
+├── venv/
+├── frontend/
+│   ├── index.html
+│   ├── package.json
+│   ├── src/
+│   │   ├── App.jsx
+│   │   ├── components/
+│   │   │   ├── FileUpload.jsx
+│   │   │   ├── Chat.jsx
+│   │   │   └── ui/
+│   │   └── main.jsx
+└── backend/
+    ├── app.py
+    └── utils/
+        └── pdf_processor.py 
