@@ -234,11 +234,3 @@ codex_ai/
 ## License
 
 This project is a private repository and not meant to be shared.
-
-## Acknowledgements
-
-- Google Gemini AI for providing the language model
-- LangChain for the LLM framework
-- FAISS for vector similarity search
-- shadcn/ui for the beautiful UI components
-```
