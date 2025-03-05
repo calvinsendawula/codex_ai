@@ -7,7 +7,7 @@ Codex AI is a document analysis application that uses Retrieval-Augmented Genera
 - 📄 PDF document upload and processing
 - 💬 Interactive chat interface with document context
 - 🔍 Semantic search using FAISS vector database
-- 🧠 Powered by Google's Gemini AI models
+- 🧠 Powered by Google's Gemini 2.0 Flash AI model
 - 🔄 Multiple conversation modes (concise, balanced, detailed)
 - 👤 User authentication system
 - 📚 Session management for organizing document conversations
@@ -42,7 +42,7 @@ Codex AI is a document analysis application that uses Retrieval-Augmented Genera
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/codex_ai.git
+   git clone https://github.com/calvinsendawula/codex_ai.git
    cd codex_ai
    ```
 
@@ -59,7 +59,7 @@ Codex AI is a document analysis application that uses Retrieval-Augmented Genera
 
 3. Install backend dependencies:
    ```bash
-   pip install flask flask-cors python-dotenv langchain langchain-google-genai langchain-community langchain-text-splitters faiss-cpu sqlalchemy pypdf
+   pip install -r requirements.txt
    ```
 
 4. Create a `.env` file in the root directory with the following variables:
